@@ -30,6 +30,7 @@
             <li>Task # 7: Program that inputs from user an integer and prints to the screen the table of that number up to 10 multiples</li>
             <li>Task # 8: Function to accept marks of a student (between 0-100) and return the grade according to the given criteria</li>
             <li>Task # 9: Square of Asterisk</li>
+            <li>Task # 10: Comparison of characters based on ASCII values</li>
         </ul>
     </li>
 </ul>
