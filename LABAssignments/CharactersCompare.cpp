@@ -11,11 +11,11 @@ int compareChars(char c1, char c2)
     
     // Convert to lowercase manually
     if (c1 >= 'A' && c1 <= 'Z')
-        c1 = c1 + 32;  // Convert uppercase to lowercase
+        c1 = c1 + 32; 
     if (c2 >= 'A' && c2 <= 'Z')
-        c2 = c2 + 32;  // Convert uppercase to lowercase
+        c2 = c2 + 32; 
     
-    // Compare the characters
+    // Comparing
     if (c1 > c2)
         return 1;
     else if (c1 < c2)
