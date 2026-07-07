@@ -31,6 +31,7 @@
             <li>Task # 8: Function to accept marks of a student (between 0-100) and return the grade according to the given criteria</li>
             <li>Task # 9: Square of Asterisk</li>
             <li>Task # 10: Comparison of characters based on ASCII values</li>
+            <li>Task # 11: Print the unique elements of an array</li>
         </ul>
     </li>
 </ul>
