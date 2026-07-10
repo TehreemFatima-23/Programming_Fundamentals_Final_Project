@@ -34,4 +34,10 @@
             <li>Task # 11: Print the unique elements of an array</li>
         </ul>
     </li>
+    <li>
+        <strong>Basic programs</strong>
+        <ul>
+            <li>Calculator for integers and decimals</li>
+        </ul>
+    </li>
 </ul>
