@@ -38,6 +38,7 @@
         <strong>Basic programs</strong>
         <ul>
             <li>Calculator for integers and decimals</li>
+            <li>Table and its Reverse</li>
         </ul>
     </li>
 </ul>
