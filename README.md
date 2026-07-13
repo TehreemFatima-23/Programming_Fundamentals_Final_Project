@@ -40,7 +40,7 @@
             <li>Calculator for integers and decimals</li>
             <li>Table and its Reverse</li>
             <li>Even or Odd Number</li>
-            <li>Swap two numbers</li>
+            <li>Swap two numbers(With and without using third varaible)</li>
         </ul>
     </li>
 </ul>
