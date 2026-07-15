@@ -41,6 +41,7 @@
             <li>Table and its Reverse</li>
             <li>Even or Odd Number</li>
             <li>Swap two numbers(With and without using third varaible)</li>
+            <li>Fibonacci Series</li>
         </ul>
     </li>
 </ul>
