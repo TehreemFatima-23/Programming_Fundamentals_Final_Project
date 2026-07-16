@@ -42,6 +42,7 @@
             <li>Even or Odd Number</li>
             <li>Swap two numbers(With and without using third varaible)</li>
             <li>Fibonacci Series</li>
+            <li>Check leap year</li>
         </ul>
     </li>
 </ul>
