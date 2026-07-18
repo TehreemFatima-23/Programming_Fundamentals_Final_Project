@@ -44,6 +44,7 @@
             <li>Fibonacci Series</li>
             <li>Check leap year</li>
             <li>Prime Number checking</li>
+            <li>Reverse of a number</li>
         </ul>
     </li>
 </ul>
