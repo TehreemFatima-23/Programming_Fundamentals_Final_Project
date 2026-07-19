@@ -43,7 +43,7 @@
             <li>Swap two numbers(With and without using third varaible)</li>
             <li>Fibonacci Series</li>
             <li>Check leap year</li>
-            <li>Prime Number checking</li>
+            <li>Prime Number checking and printing</li>
             <li>Reverse of a number</li>
         </ul>
     </li>
