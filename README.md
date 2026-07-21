@@ -46,6 +46,7 @@
             <li>Prime Number checking and printing</li>
             <li>Sum of digits of a number</li>
             <li>Reverse of a number</li>
+            <li>Palindrome Number</li>
         </ul>
     </li>
 </ul>
