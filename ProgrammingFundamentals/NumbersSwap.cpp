@@ -4,12 +4,12 @@ using namespace std;
 void swapWithoutThird(){
     int a, b;
 
-    cout<<"-----Swapping using a third variable-----"<<endl;
+    cout<<"-----Swapping without using a third variable-----"<<endl;
     cout<<"Enter first Number: ";
     cin>>a;
     cout<<"Enter second Number: ";
     cin>>b;
-
+// Swapping logic without using third variable
     a = a + b;
     b = a - b;
     a = a - b;
@@ -27,7 +27,7 @@ void swapUsingThird(){
     cin>>num1;
     cout<<"Enter Number-2: ";
     cin>>num2;
-
+//Swapping by using third variable
     temp = num1;
     num1 = num2;
     num2 = temp;
