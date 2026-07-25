@@ -47,6 +47,7 @@
             <li>Sum of digits of a number</li>
             <li>Reverse of a number</li>
             <li>Palindrome Number</li>
+            <li>Armstrong Number</li>
         </ul>
     </li>
 </ul>
