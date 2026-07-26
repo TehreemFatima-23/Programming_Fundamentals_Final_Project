@@ -48,6 +48,7 @@
             <li>Reverse of a number</li>
             <li>Palindrome Number</li>
             <li>Armstrong Number</li>
+            <li>HCF of two Number</li>
         </ul>
     </li>
 </ul>
