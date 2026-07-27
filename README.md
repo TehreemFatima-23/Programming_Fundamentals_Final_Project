@@ -49,6 +49,7 @@
             <li>Palindrome Number</li>
             <li>Armstrong Number</li>
             <li>HCF of two Number</li>
+            <li>LCM of two Number</li>
         </ul>
     </li>
 </ul>
