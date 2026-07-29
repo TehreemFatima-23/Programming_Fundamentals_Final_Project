@@ -49,6 +49,7 @@
             <li>Palindrome Number</li>
             <li>Armstrong Number</li>
             <li>HCF and LCM of two Number</li>
+            <li>Star Patterns</li>
         </ul>
     </li>
 </ul>
