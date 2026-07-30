@@ -23,9 +23,27 @@ void UpsiedDown(){
     }
 }
 
+void L_Triangle(){
+    
+    std::cout<<"-----------Left Triangle----------\n";
+    for(int i=1; i<=5; i++){
+        for(int j=1; j<=5; j++){
+            if(j>=6-i){
+            std::cout<<"*";
+            }
+            else{
+                std::cout<<" ";
+            }
+        }
+        std::cout<<"\n";
+    }
+
+}
+
 int main() {
     R_Triangle();
     UpsiedDown();
+    L_Triangle();
 
     return 0;
 }
