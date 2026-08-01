@@ -55,6 +55,24 @@ void R_UpsideDown(){
         }
         std::cout<<"\n";
     }
+    std::cout<<"\n";
+
+}
+
+void T_shape(){
+    
+    std::cout<<"-----------T Shape of Stars----------\n";
+    for(int i=1; i<=9; i++){
+        for(int j=1; j<=9; j++){
+            if(i==1 || j==5){
+            std::cout<<"*";
+            }
+            else{
+                std::cout<<" ";
+            }
+        }
+        std::cout<<"\n";
+    }
 
 }
 
@@ -63,6 +81,7 @@ int main() {
     L_UpsiedDown();
     R_Triangle();
     R_UpsideDown();
+    T_shape();
 
     return 0;
 }
