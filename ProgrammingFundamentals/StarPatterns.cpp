@@ -1,8 +1,8 @@
 #include <iostream>
 
-void R_Triangle(){
+void L_Triangle(){
 
-    std::cout<<"-----------Right Triangle----------\n";
+    std::cout<<"-----------Left side Triangle----------\n";
     for(int i=1; i<=5; i++){
         for(int j=1; j<=i; j++){
             std::cout<<"*";
@@ -12,9 +12,9 @@ void R_Triangle(){
     std::cout<<"\n";
 }
 
-void R_UpsiedDown(){
+void L_UpsiedDown(){
 
-    std::cout<<"-----------Upside down of Right Triangle----------\n";
+    std::cout<<"-----------Upside down of Left Triangle----------\n";
     for(int i=5; i>=1; i--){
         for(int j=1; j<=i; j++){
             std::cout<<"*";
@@ -23,9 +23,9 @@ void R_UpsiedDown(){
     }
 }
 
-void L_Triangle(){
+void R_Triangle(){
     
-    std::cout<<"-----------Left Triangle----------\n";
+    std::cout<<"-----------Right side Triangle----------\n";
     for(int i=1; i<=5; i++){
         for(int j=1; j<=5; j++){
             if(j>=6-i){
@@ -41,9 +41,9 @@ void L_Triangle(){
 
 }
 
-void L_UpsideDown(){
+void R_UpsideDown(){
     
-    std::cout<<"-----------Upside down of Left Triangle----------\n";
+    std::cout<<"-----------Upside down of Right Triangle----------\n";
     for(int i=1; i<=5; i++){
         for(int j=1; j<=5; j++){
             if(j>=i){
@@ -59,10 +59,10 @@ void L_UpsideDown(){
 }
 
 int main() {
-    R_Triangle();
-    R_UpsiedDown();
     L_Triangle();
-    L_UpsideDown();
+    L_UpsiedDown();
+    R_Triangle();
+    R_UpsideDown();
 
     return 0;
 }
