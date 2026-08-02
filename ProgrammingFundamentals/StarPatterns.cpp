@@ -27,13 +27,13 @@ void R_Triangle(){
     
     std::cout<<"-----------Right side Triangle----------\n";
     for(int i=1; i<=5; i++){
-        for(int j=1; j<=5; j++){
-            if(j>=6-i){
-            std::cout<<"*";
-            }
-            else{
+        //For spaces printing
+        for(int j=1; j<=5-i; j++){
                 std::cout<<" ";
-            }
+        }
+        //For stars printing
+        for(int k=1; k<=i; k++){
+            std::cout<<"*";
         }
         std::cout<<"\n";
     }
@@ -44,14 +44,14 @@ void R_Triangle(){
 void R_UpsideDown(){
     
     std::cout<<"-----------Upside down of Right Triangle----------\n";
-    for(int i=1; i<=5; i++){
-        for(int j=1; j<=5; j++){
-            if(j>=i){
-            std::cout<<"*";
-            }
-            else{
+    for(int i=5; i>=1; i--){
+        //For spaces printing
+        for(int j=1; j<=5-i; j++){
                 std::cout<<" ";
-            }
+        }
+        //For stars printing
+        for(int k=1; k<=i; k++){
+            std::cout<<"*";
         }
         std::cout<<"\n";
     }
