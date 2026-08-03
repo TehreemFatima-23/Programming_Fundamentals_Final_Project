@@ -49,7 +49,7 @@
             <li>Palindrome Number</li>
             <li>Armstrong Number</li>
             <li>HCF and LCM of two Number</li>
-            <li>Star Patterns(Different shapes of Triangles)</li>
+            <li>Star Patterns(Different types of shapes and characters)</li>
         </ul>
     </li>
 </ul>
