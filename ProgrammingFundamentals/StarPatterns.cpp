@@ -127,6 +127,23 @@ void L_pyramid(){
 
 }
 
+void R_pyramid(){
+    
+    std::cout<<"----------- Right Pyramid ----------\n";
+    for(int i=1; i<=9; i++){
+        for(int j=1; j<=5; j++){
+            if(j>=6-i && j>=i-4){
+            std::cout<<"*";
+            }
+            else{
+                std::cout<<" ";
+            }
+        }
+        std::cout<<"\n";
+    }
+
+}
+
 int main() {
     L_Triangle();
     L_UpsiedDown();
@@ -136,6 +153,7 @@ int main() {
     pyramid();
     p_upsideDown();
     L_pyramid();
+    R_pyramid();
 
     return 0;
 }
