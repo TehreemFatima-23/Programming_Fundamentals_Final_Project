@@ -76,6 +76,23 @@ void T_shape(){
 
 }
 
+void pyramid(){
+    
+    std::cout<<"----------- Shape of Pyramid ----------\n";
+    for(int i=1; i<=5; i++){
+        for(int j=1; j<=9; j++){
+            if(j>=6-i && j<=4+i){
+            std::cout<<"*";
+            }
+            else{
+                std::cout<<" ";
+            }
+        }
+        std::cout<<"\n";
+    }
+
+}
+
 void p_upsideDown(){
     
     std::cout<<"----------- Upside down of Pyramid ----------\n";
@@ -93,12 +110,12 @@ void p_upsideDown(){
 
 }
 
-void pyramid(){
+void L_pyramid(){
     
-    std::cout<<"----------- Shape of Pyramid ----------\n";
-    for(int i=1; i<=5; i++){
-        for(int j=1; j<=9; j++){
-            if(j>=6-i && j<=4+i){
+    std::cout<<"----------- Left Pyramid ----------\n";
+    for(int i=1; i<=9; i++){
+        for(int j=1; j<=5; j++){
+            if(j<=i && j<=10-i){
             std::cout<<"*";
             }
             else{
@@ -118,6 +135,7 @@ int main() {
     T_shape();
     pyramid();
     p_upsideDown();
+    L_pyramid();
 
     return 0;
 }
