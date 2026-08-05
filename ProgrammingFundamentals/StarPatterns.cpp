@@ -59,23 +59,6 @@ void R_UpsideDown(){
 
 }
 
-void T_shape(){
-    
-    std::cout<<"-----------T Shape of Stars----------\n";
-    for(int i=1; i<=9; i++){
-        for(int j=1; j<=9; j++){
-            if(i==1 || j==5){
-            std::cout<<"*";
-            }
-            else{
-                std::cout<<" ";
-            }
-        }
-        std::cout<<"\n";
-    }
-
-}
-
 void pyramid(){
     
     std::cout<<"----------- Shape of Pyramid ----------\n";
@@ -144,16 +127,51 @@ void R_pyramid(){
 
 }
 
+void M_shape(){
+    
+    std::cout<<"----------- Star shape of letter M ----------\n";
+    for(int i=1; i<=9; i++){
+        for(int j=1; j<=9; j++){
+            if(j==1 || j==9 || (j==i && i<=5) || (j==10-i && i<=5)){
+            std::cout<<"*";
+            }
+            else{
+                std::cout<<" ";
+            }
+        }
+        std::cout<<"\n";
+    }
+
+}
+
+void T_shape(){
+    
+    std::cout<<"-----------T Shape of Stars----------\n";
+    for(int i=1; i<=9; i++){
+        for(int j=1; j<=9; j++){
+            if(i==1 || j==5){
+            std::cout<<"*";
+            }
+            else{
+                std::cout<<" ";
+            }
+        }
+        std::cout<<"\n";
+    }
+
+}
+
 int main() {
     L_Triangle();
     L_UpsiedDown();
     R_Triangle();
     R_UpsideDown();
-    T_shape();
     pyramid();
     p_upsideDown();
     L_pyramid();
     R_pyramid();
+    M_shape();
+    T_shape();
 
     return 0;
 }
