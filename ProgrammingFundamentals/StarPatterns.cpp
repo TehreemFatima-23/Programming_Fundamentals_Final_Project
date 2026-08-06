@@ -129,7 +129,7 @@ void R_pyramid(){
 
 void M_shape(){
     
-    std::cout<<"----------- Star shape of letter M ----------\n";
+    std::cout<<"----------- Star pattern of letter M ----------\n";
     for(int i=1; i<=9; i++){
         for(int j=1; j<=9; j++){
             if(j==1 || j==9 || (j==i && i<=5) || (j==10-i && i<=5)){
@@ -146,7 +146,7 @@ void M_shape(){
 
 void T_shape(){
     
-    std::cout<<"-----------T Shape of Stars----------\n";
+    std::cout<<"----------- Star pattern of letter T----------\n";
     for(int i=1; i<=9; i++){
         for(int j=1; j<=9; j++){
             if(i==1 || j==5){
@@ -163,7 +163,7 @@ void T_shape(){
 
 void Z_shape(){
     
-    std::cout<<"----------- Star shape of letter Z ----------\n";
+    std::cout<<"----------- Star pattern of letter Z ----------\n";
     for(int i=1; i<=8; i++){
         for(int j=1; j<=8; j++){
             if(i==1 || i==8 || j==9-i){
