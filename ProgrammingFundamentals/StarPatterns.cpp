@@ -161,6 +161,23 @@ void T_shape(){
 
 }
 
+void Z_shape(){
+    
+    std::cout<<"----------- Star shape of letter Z ----------\n";
+    for(int i=1; i<=8; i++){
+        for(int j=1; j<=8; j++){
+            if(i==1 || i==8 || j==9-i){
+            std::cout<<"*";
+            }
+            else{
+                std::cout<<" ";
+            }
+        }
+        std::cout<<"\n";
+    }
+
+}
+
 int main() {
     L_Triangle();
     L_UpsiedDown();
@@ -172,6 +189,7 @@ int main() {
     R_pyramid();
     M_shape();
     T_shape();
+    Z_shape();
 
     return 0;
 }
