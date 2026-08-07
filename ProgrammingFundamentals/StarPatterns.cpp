@@ -2,7 +2,7 @@
 
 void L_Triangle(){
 
-    std::cout<<"-----------Left side Triangle----------\n";
+    std::cout<<"\n-----------Left side Triangle----------\n";
     for(int i=1; i<=5; i++){
         for(int j=1; j<=i; j++){
             std::cout<<"*";
@@ -78,7 +78,7 @@ void pyramid(){
 
 void p_upsideDown(){
     
-    std::cout<<"----------- Upside down of Pyramid ----------\n";
+    std::cout<<"\n----------- Upside down of Pyramid ----------\n";
     for(int i=1; i<=5; i++){
         for(int j=1; j<=9; j++){
             if(j>=i && j<=10-i){
@@ -95,7 +95,7 @@ void p_upsideDown(){
 
 void L_pyramid(){
     
-    std::cout<<"----------- Left Pyramid ----------\n";
+    std::cout<<"\n----------- Left Pyramid ----------\n";
     for(int i=1; i<=9; i++){
         for(int j=1; j<=5; j++){
             if(j<=i && j<=10-i){
@@ -112,7 +112,7 @@ void L_pyramid(){
 
 void R_pyramid(){
     
-    std::cout<<"----------- Right Pyramid ----------\n";
+    std::cout<<"\n----------- Right Pyramid ----------\n";
     for(int i=1; i<=9; i++){
         for(int j=1; j<=5; j++){
             if(j>=6-i && j>=i-4){
@@ -129,7 +129,7 @@ void R_pyramid(){
 
 void M_shape(){
     
-    std::cout<<"----------- Star pattern of letter M ----------\n";
+    std::cout<<"\n----------- Star pattern of letter M ----------\n";
     for(int i=1; i<=9; i++){
         for(int j=1; j<=9; j++){
             if(j==1 || j==9 || (j==i && i<=5) || (j==10-i && i<=5)){
@@ -146,7 +146,7 @@ void M_shape(){
 
 void T_shape(){
     
-    std::cout<<"----------- Star pattern of letter T----------\n";
+    std::cout<<"\n----------- Star pattern of letter T----------\n";
     for(int i=1; i<=9; i++){
         for(int j=1; j<=9; j++){
             if(i==1 || j==5){
@@ -163,7 +163,7 @@ void T_shape(){
 
 void Z_shape(){
     
-    std::cout<<"----------- Star pattern of letter Z ----------\n";
+    std::cout<<"\n----------- Star pattern of letter Z ----------\n";
     for(int i=1; i<=8; i++){
         for(int j=1; j<=8; j++){
             if(i==1 || i==8 || j==9-i){
