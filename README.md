@@ -49,7 +49,7 @@
             <li>Palindrome Number</li>
             <li>Armstrong Number</li>
             <li>HCF and LCM of two Number</li>
-            <li>Star Patterns(Different types of shapes(Triangle, Pyramid) and characters(M,T,Z))</li>
+            <li>Star Patterns and Floyd's triangle</li>
             <li>Maximum Number in the Array</li>
         </ul>
     </li>
