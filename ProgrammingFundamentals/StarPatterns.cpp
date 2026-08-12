@@ -178,6 +178,24 @@ void Z_shape(){
 
 }
 
+void floydTriangle(){
+    
+    std::cout<<"\n----------- Floyd's Triangle ----------\n";
+    int n, k=1;
+    std::cout<<"Enter the number of rows: ";
+    std::cin>>n;
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=i; j++){
+ 
+            std::cout<<k;
+            k++;
+            
+        }
+        std::cout<<"\n";
+    }
+    }
+
+
 int main() {
     L_Triangle();
     L_UpsiedDown();
@@ -190,6 +208,7 @@ int main() {
     M_shape();
     T_shape();
     Z_shape();
+    floydTriangle();
 
     return 0;
 }
