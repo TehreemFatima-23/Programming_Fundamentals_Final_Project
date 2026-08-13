@@ -51,6 +51,7 @@
             <li>HCF and LCM of two Number</li>
             <li>Star Patterns and Floyd's triangle</li>
             <li>Maximum Number in the Array</li>
+            <li>Remove vowels from a string</li>
         </ul>
     </li>
 </ul>
