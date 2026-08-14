@@ -52,6 +52,7 @@
             <li>Star Patterns and Floyd's triangle</li>
             <li>Maximum Number in the Array</li>
             <li>Remove vowels from a string</li>
+            <li>Check the perfect square</li>
         </ul>
     </li>
 </ul>
