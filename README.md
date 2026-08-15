@@ -53,6 +53,7 @@
             <li>Maximum Number in the Array</li>
             <li>Remove vowels from a string</li>
             <li>Check the perfect square</li>
+            <li>Factors of a number</li>
         </ul>
     </li>
 </ul>
