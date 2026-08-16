@@ -20,10 +20,29 @@ void factors(int n){
             std::cout<<i<<" ";
         }
     }
+    std::cout<<"\n";
 }
 
-void primeFactors(){
-    
+void primeFactors(int n){
+    int count = 0;
+    int i, j;
+    std::cout<<"Prime factors of the number are: ";
+    for(i=1; i<n; i++){
+        for(j=2; j<i; j++){
+            if(i%j==0){
+                break;
+            }
+        }
+        if(j==i){
+            if(n % i==0){
+                std::cout<<i<<" ";
+                count++;
+            }
+        }
+    }
+    if(count==0){
+        std::cout<<"Prime factors not FOUND";
+    }
 }
 
 int main(){
@@ -33,6 +52,7 @@ int main(){
 
     perfectSquare(n);
     factors(n);
+    primeFactors(n);
     
     return 0;
 }
