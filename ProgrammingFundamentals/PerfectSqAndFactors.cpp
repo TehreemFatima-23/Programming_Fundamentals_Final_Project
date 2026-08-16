@@ -22,6 +22,10 @@ void factors(int n){
     }
 }
 
+void primeFactors(){
+    
+}
+
 int main(){
     int n;
     std::cout<<"Enter a number: ";
