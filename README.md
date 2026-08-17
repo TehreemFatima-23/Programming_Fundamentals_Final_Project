@@ -55,6 +55,7 @@
             <li>Check the perfect square</li>
             <li>Factors of a number</li>
             <li>Prime Factors of a number</li>
+            <li>Temperature from degree Celsius to Fahrenheit</li>
         </ul>
     </li>
 </ul>
