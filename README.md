@@ -56,6 +56,7 @@
             <li>Factors of a number</li>
             <li>Prime Factors of a number</li>
             <li>Temperature from degree Celsius to Fahrenheit</li>
+            <li>Reverse of an array</li>
         </ul>
     </li>
 </ul>
