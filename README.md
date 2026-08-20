@@ -58,6 +58,7 @@
             <li>Temperature from degree Celsius to Fahrenheit</li>
             <li>Reverse of an array</li>
             <li>Reverse of a string</li>
+            <li>Digit in letters</li>
         </ul>
     </li>
 </ul>
