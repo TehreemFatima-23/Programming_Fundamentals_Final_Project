@@ -59,6 +59,7 @@
             <li>Reverse of an array</li>
             <li>Reverse of a string</li>
             <li>Digit in letters</li>
+            <li>Pointer program to calculate the sum and difference of two given numbers</li>
         </ul>
     </li>
 </ul>
