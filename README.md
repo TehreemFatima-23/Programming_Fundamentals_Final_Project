@@ -62,6 +62,7 @@
             <li>Pointer program to calculate the sum and difference of two given numbers</li>
             <li>Student information using Struct</li>
             <li>Formation of Rectangle class to calculate the area of Rectangle</li>
+            <li>Count the total duplicate elements in an array</li>
         </ul>
     </li>
 </ul>
