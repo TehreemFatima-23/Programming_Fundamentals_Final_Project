@@ -1,4 +1,4 @@
-<h1>Programming_Fundamentals_Final_Project</h1>
+<h1>Programming Fundamentals Final Project</h1>
 
 <ul>
     <li>
