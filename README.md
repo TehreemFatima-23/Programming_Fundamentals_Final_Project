@@ -2,7 +2,7 @@
 
 <ul>
     <li>
-        <strong align="center">Student Grading System</strong>
+        <h3 align="center">Student Grading System</h3>
         <ul>
             <li>Its the final project for my first semester Programming Fundamentals course.</li>
         </ul>
