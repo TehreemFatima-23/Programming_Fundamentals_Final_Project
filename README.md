@@ -1,5 +1,5 @@
 <h1 align="center">Programming Fundamentals</h1>
-<h3 align="center">Student Grading System & Lab Portfolio</h3>
+<h3 align="center">Student Grading System</h3>
 
 <ul>
     <li>
