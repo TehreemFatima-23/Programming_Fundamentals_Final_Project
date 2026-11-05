@@ -1,68 +1,69 @@
-<h1>Programming Fundamentals Final Project</h1>
+<h1 align="center">Programming Fundamentals</h1>
+<h3 align="center">Student Grading System & Lab Portfolio</h3>
 
-    <h3 align="center">Student Grading System</h3>
 <ul>
     <li>
+        <strong>Overview</strong>
         <ul>
-            <li>Its the final project for my first semester Programming Fundamentals course.</li>
+            <li>It's the final project and course portfolio for my first-semester Programming Fundamentals course.</li>
         </ul>
     </li>
     <li>
-        <strong>Features of this Project</strong>
+        <strong>Features of the Final Project (Student Grading System)</strong>
         <ul>
-            <li>This project is a Student Grading System written in C++.</li>
-            <li>It allows a user to manage student records by adding, updating, deleting, and displaying student information.</li>
-            <li>Each student has a name, roll number, and marks for five subjects.</li>
-            <li>The program automatically calculates the total marks, average percentage, and assigns a grade (A, B, C, or D) along with a personalized feedback message.</li>
-            <li>All data is saved to and loaded from a file (<code>students.txt</code>) so records persist between runs.</li>
-            <li>Additional features include viewing a summary report (class average, topper, grade distribution) and printing an individual student’s result.</li>
+            <li>Written in C++.</li>
+            <li>Allows managing student records: add, update, delete, and display student information.</li>
+            <li>Tracks student name, roll number, and marks for 5 subjects.</li>
+            <li>Automatically calculates total marks, percentage, and assigns grades (A, B, C, D) with personalized feedback messages.</li>
+            <li>Saves and loads data persistently using file handling (<code>students.txt</code>).</li>
+            <li>Generates summary reports (class average, top performer, grade distribution) and prints individual result sheets.</li>
         </ul>
     </li>
     <li>
         <strong>Lab Tasks</strong>
         <ul>
-            <li>Task # 1: Time conversion from hours, minutes and seconds to seconds</li>
-            <li>Task # 2: Time conversion from seconds to hours, minutes and seconds</li>
-            <li>Task # 3: Program to check whether a character is an uppercase or lowercase alphabet</li>
-            <li>Task # 4: Program to check whether a character is vowel or constant</li>
-            <li>Task # 5: Program which performs arithmetic operations on integers using switch and take operands and an operator as an input</li>
-            <li>Task # 6: Program to calculate factorial of any number given by user</li>
-            <li>Task # 7: Program that inputs from user an integer and prints to the screen the table of that number up to 10 multiples</li>
-            <li>Task # 8: Function to accept marks of a student (between 0-100) and return the grade according to the given criteria</li>
-            <li>Task # 9: Square of Asterisk</li>
-            <li>Task # 10: Comparison of characters based on ASCII values</li>
-            <li>Task # 11: Print the unique elements of an array</li>
+            <li>Task #1: Time conversion from hours, minutes, and seconds to total seconds</li>
+            <li>Task #2: Time conversion from total seconds to hours, minutes, and seconds</li>
+            <li>Task #3: Check whether a character is upper or lower case</li>
+            <li>Task #4: Check whether a character is a vowel or a consonant</li>
+            <li>Task #5: Simple calculator using <code>switch-case</code> for basic integer operations</li>
+            <li>Task #6: Calculate the factorial of a given number</li>
+            <li>Task #7: Print the multiplication table of a number up to 10 multiples</li>
+            <li>Task #8: Function to compute grades based on marks (0–100)</li>
+            <li>Task #9: Print a square pattern of asterisks</li>
+            <li>Task #10: Compare characters based on ASCII values</li>
+            <li>Task #11: Print unique elements from an array</li>
         </ul>
     </li>
     <li>
-        <strong>Basic programs</strong>
+        <strong>Basic Practice Programs</strong>
         <ul>
             <li>Calculator for integers and decimals</li>
-            <li>Table and its Reverse</li>
-            <li>Even or Odd Number</li>
-            <li>Swap two numbers(With and without using third varaible)</li>
-            <li>Fibonacci Series</li>
-            <li>Check leap year</li>
-            <li>Prime Number checking and printing</li>
+            <li>Multiplication table and its reverse</li>
+            <li>Even or odd number checker</li>
+            <li>Swap two numbers (with and without using a third variable)</li>
+            <li>Fibonacci series generator</li>
+            <li>Leap year checker</li>
+            <li>Prime number checker and generator</li>
             <li>Sum of digits of a number</li>
-            <li>Reverse of a number</li>
-            <li>Palindrome Number</li>
-            <li>Armstrong Number</li>
-            <li>HCF and LCM of two Number</li>
-            <li>Star Patterns and Floyd's triangle</li>
-            <li>Maximum Number in the Array</li>
+            <li>Reverse a number</li>
+            <li>Palindrome number checker</li>
+            <li>Armstrong number checker</li>
+            <li>HCF and LCM of two numbers</li>
+            <li>Star patterns and Floyd's triangle</li>
+            <li>Find the maximum element in an array</li>
             <li>Remove vowels from a string</li>
-            <li>Check the perfect square</li>
-            <li>Factors of a number</li>
-            <li>Prime Factors of a number</li>
-            <li>Temperature from degree Celsius to Fahrenheit</li>
-            <li>Reverse of an array</li>
-            <li>Reverse of a string</li>
-            <li>Digit in letters</li>
-            <li>Pointer program to calculate the sum and difference of two given numbers</li>
-            <li>Student information using Struct</li>
-            <li>Formation of Rectangle class to calculate the area of Rectangle</li>
-            <li>Count the total duplicate elements in an array</li>
+            <li>Perfect square checker</li>
+            <li>Find factors of a number</li>
+            <li>Find prime factors of a number</li>
+            <li>Temperature converter (Celsius to Fahrenheit)</li>
+            <li>Reverse an array</li>
+            <li>Reverse a string</li>
+            <li>Convert numeric digits to words</li>
+            <li>Pointers: Calculate sum and difference of two numbers</li>
+            <li>Student record system using <code>struct</code></li>
+            <li>Object-Oriented Programming: <code>Rectangle</code> class to calculate area</li>
+            <li>Count total duplicate elements in an array</li>
         </ul>
     </li>
 </ul>
