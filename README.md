@@ -1,8 +1,8 @@
 <h1>Programming Fundamentals Final Project</h1>
 
+    <h3 align="center">Student Grading System</h3>
 <ul>
     <li>
-        <h3 align="center">Student Grading System</h3>
         <ul>
             <li>Its the final project for my first semester Programming Fundamentals course.</li>
         </ul>
