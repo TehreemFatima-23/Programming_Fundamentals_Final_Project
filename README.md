@@ -2,9 +2,9 @@
 
 <ul>
     <li>
-        <strong>Final Project</strong>
+        <strong>Student Grading System</strong>
         <ul>
-            <li>Final project for my first semester Programming Fundamentals course.</li>
+            <li>Its the final project for my first semester Programming Fundamentals course.</li>
         </ul>
     </li>
     <li>
